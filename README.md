@@ -1,16 +1,21 @@
-## Hi there 👋
+### Hi 👋
 
-<!--
-**darkdatastream/darkdatastream** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Thomas — Data Quality Engineer working with Python.
 
-Here are some ideas to get you started:
+**What I do:** I build data pipelines that handle messy real-world data — millions of rows, broken timestamps, encoding issues, the lot.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Stack I work with daily:**
+- Python (Polars, DuckDB, pandas, httpx)
+- SQL (DuckDB, PostgreSQL)
+- Data viz: Altair, Plotly, matplotlib
+- Git, Linux
+
+**Recent projects:**
+- 🚕 NYC Taxi cleanup — 48.7M records, Polars, DST-aware pipeline
+- 🍔 Yelp data quality — 1M reviews, pandas, matplotlib
+- ⚡ Household power time-series — 2M+ records, anomaly detection
+- 🧹 Customer data cleaning — Python, validation, deduplication
+
+**Currently:** Looking for remote Data Engineer / Data Quality roles.
+
+📍 Based in Netherlands, open to remote-first opportunities worldwide.
