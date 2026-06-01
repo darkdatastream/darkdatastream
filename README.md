@@ -11,7 +11,7 @@ I'm Thomas — Data Quality Engineer working with Python.
 - Git, Linux
 
 **Recent projects:**
-- 🚕 NYC Taxi cleanup — 48.7M records, Polars, DST-aware pipeline
+- 🚕 NYC Taxi cleanup — 198M records, Polars, DST-aware pipeline
 - 🍔 Yelp data quality — 1M reviews, pandas, matplotlib
 - ⚡ Household power time-series — 2M+ records, anomaly detection
 - 🧹 Customer data cleaning — Python, validation, deduplication
