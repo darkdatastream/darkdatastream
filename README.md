@@ -1,21 +1,24 @@
 ### Hi 👋
 
-I'm Thomas — Data Quality Engineer working with Python.
+I'm Thomas — Data Engineer working with Python.
 
-**What I do:** I build data pipelines that handle messy real-world data — millions of rows, broken timestamps, encoding issues, the lot.
+I build data pipelines that process large, messy real-world data:
+millions of records, broken timestamps, encoding issues, multi-format sources.
+I design them from the ground up — ingestion, processing, output — and make them run.
 
 **Stack I work with daily:**
 - Python (Polars, DuckDB, pandas, httpx)
 - SQL (DuckDB, PostgreSQL)
+- Parquet, multiprocessing, large-scale file processing
 - Data viz: Altair, Plotly, matplotlib
 - Git, Linux
 
-**Recent projects:**
-- 🚕 NYC Taxi cleanup — 198M records, Polars, DST-aware pipeline
-- 🍔 Yelp data quality — 1M reviews, pandas, matplotlib
-- ⚡ Household power time-series — 2M+ records, anomaly detection
-- 🧹 Customer data cleaning — Python, validation, deduplication
+**Selected pipelines:**
+- 🚕 **NYC Yellow Taxi** — multi-year pipeline, 198M records (2021–2025), Polars, record-level processing, vendor analysis
+- 📑 **EU Public Procurement (TED)** — 871k procurement notices, lxml + multiprocessing → Parquet, nested XML parsing at scale
+- ⚡ **Household power time-series** — 2M+ records, anomaly detection
+- 🧹 **Customer data pipeline** — Python, validation, deduplication
 
-**Currently:** Looking for remote Data Engineer / Data Quality roles.
+**Currently:** Open to remote Data Engineer roles and contract work. Available immediately.
 
-📍 Based in Netherlands, open to remote-first opportunities worldwide.
+📍 Remote-first, worldwide.
