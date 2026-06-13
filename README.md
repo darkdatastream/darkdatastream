@@ -1,24 +1,25 @@
 ### Hi 👋
 
-I'm Thomas — Data Engineer working with Python.
+I'm Thomas — focused on QA, API testing, and data quality with Python.
 
-I build data pipelines that process large, messy real-world data:
-millions of records, broken timestamps, encoding issues, multi-format sources.
-I design them from the ground up — ingestion, processing, output — and make them run.
+I build practical testing and validation projects around real-world problems:
+API checks, bug reports, traceability, pytest automation, messy CSV/Parquet validation, and reproducible evidence.
 
-**Stack I work with daily:**
-- Python (Polars, DuckDB, pandas, httpx)
-- SQL (DuckDB, PostgreSQL)
-- Parquet, multiprocessing, large-scale file processing
-- Data viz: Altair, Plotly, matplotlib
-- Git, Linux
+**Current focus:**
 
-**Selected pipelines:**
-- 🚕 **NYC Yellow Taxi** — multi-year pipeline, 198M records (2021–2025), Polars, record-level processing, vendor analysis
-- 📑 **EU Public Procurement (TED)** — 871k procurement notices, lxml + multiprocessing → Parquet, nested XML parsing at scale
-- ⚡ **Household power time-series** — 2M+ records, anomaly detection
-- 🧹 **Customer data pipeline** — Python, validation, deduplication
+* QA / API Testing
+* Data Quality Testing
+* Python + pytest + requests
+* Postman API checks
+* SQL basics for data validation
+* Git, Linux, CI evidence
 
-**Currently:** Open to remote Data Engineer roles and contract work. Available immediately.
+**Selected projects:**
+
+* 🧪 **Buggy Shop QA Practice API** — API testing practice project with requirements, test cases, Postman collection, pytest tests, traceability matrix, bug reports, CI, and known intentional defects.
+* 🧹 **Data Quality Audit CLI** — Python/Polars validation engine for messy CSV and Parquet datasets with YAML rules, CLI, dashboard, reports, pytest tests, and CI.
+* 🔎 **GitHub API Smoke Monitor** — lightweight API smoke tests checking HTTP status codes, JSON fields, headers, and negative API scenarios.
+
+**Currently:** Open to remote Junior QA, API Tester, Data Quality Tester, and Application Support roles.
 
 📍 Remote-first, worldwide.
