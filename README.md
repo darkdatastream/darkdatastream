@@ -1,35 +1,31 @@
-### Hi 👋
+Hi 👋
 
-I'm Thomas — transitioning into data-focused IT roles, especially **Data Quality**, **Data Validation**, **Junior Data Analyst**, and **Data Support** positions.
+I'm Thomas — transitioning into data-focused IT roles, specifically Data Quality Analyst, Junior Data Analyst, and Data Support positions.
 
-My strongest entry point is practical data checking: finding duplicates, missing values, invalid formats, broken IDs, suspicious amounts, schema mismatches, and differences between source data and reports. I focus on clear evidence, reproducible checks, and simple reports that help decide whether data can be trusted.
+My strongest entry point is practical data integrity: identifying duplicates, missing values, schema mismatches, and anomalies. I focus on reproducible checks, clear evidence, and reporting that helps businesses decide whether their data can be trusted. I am building a practical portfolio centered around structural validation and rigorous defect reporting. I am not positioning myself as a software developer, but rather a data quality specialist.
 
-I am not positioning myself as a senior developer or data engineer. I am building a practical portfolio around data quality, SQL basics, structured validation, and careful issue reporting.
+Technical Focus:
 
-**Current focus:**
+SQL: Aggregations, JOINs, NULL handling, data validation queries, and duplicate tracking.
 
-* Data Quality / Data Validation
-* Junior Data Analyst / Data Support
-* SQL basics for filtering, grouping, joins, NULL checks, and duplicate checks
-* CSV / Excel / Parquet / XML data review
-* Data cleaning, validation rules, and anomaly reports
-* Reproducible evidence: inputs, checks, outputs, reports
-* QA mindset: expected vs actual, risk, traceability, clear defect notes
-* Git, Linux, command-line workflows
+Data Processing: Reviewing and cleaning CSV, Parquet, and XML datasets.
 
-**Selected data projects:**
+QA Mindset: Expected vs. actual results, anomaly reporting, traceability, and clear defect notes.
 
-* 🧹 **Data Quality Audit CLI** — reusable validation project for messy CSV and Parquet datasets with rules, reports, flagged rows, and repeatable output.
-* 🚕 **NYC Yellow Taxi Cleanup** — multi-year data quality pipeline for taxi trip records, focused on row-level flags, schema drift, and anomaly investigation.
-* 🇪🇺 **TED 2025 Data Quality Audit** — public procurement data audit focused on XML parsing, structured outputs, missing amounts, duplicate IDs, and data integrity checks.
-* 🧾 **Customer Data Cleaning** — practical cleanup of messy customer-style data: duplicates, missing fields, formatting problems, and review-ready output.
+Environment: Git, Linux, command-line workflows.
 
-**Also useful:**
+Selected Data Projects:
 
-* API / QA practice projects are kept as a secondary skill area because data work often requires checking systems, APIs, imports, exports, and actual vs expected results.
+🧹 Data Quality Audit CLI — Reusable validation tool for messy CSV/Parquet datasets with strict rulesets, flagging invalid rows, and generating repeatable reports.
 
-**Currently:** Open to remote Junior Data Quality, Junior Data Analyst, Data Validation, Data Support, SQL Support, and QA/Data Quality roles.
+🚕 NYC Yellow Taxi Cleanup — Multi-year data pipeline processing massive-scale taxi trip records (millions of rows in Parquet), resolving schema drift, and investigating row-level anomalies.
 
-📍 Remote-first, worldwide.
+🇪🇺 TED 2025 Data Quality Audit — Public procurement data audit focused on XML parsing, structured output generation, and integrity checks for missing amounts and broken IDs.
 
-See also: [`DATA_PORTFOLIO.md`](DATA_PORTFOLIO.md)
+🧾 Customer Data Cleaning — Practical cleanup of raw customer records: deduplication, field standardization, and formatting for business-ready output.
+
+I maintain a secondary focus on API/QA practices, as data workflows often require validating system inputs/outputs and endpoint responses.
+
+📍 Open to remote-first roles worldwide.
+
+See also: DATA_PORTFOLIO.md
