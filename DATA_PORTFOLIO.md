@@ -6,18 +6,20 @@ The focus is practical: messy data, missing values, duplicates, schema changes, 
 
 ## Positioning
 
-I am transitioning into data-focused IT work. I am not presenting myself as a senior data engineer. 
+I am transitioning into data-focused IT work. I am not presenting myself as a senior data engineer or software developer.
 
 My entry-level strength is rigorous validation: checking whether data is complete, consistent, explainable, and safe enough to use in reporting, migration, or business workflows.
 
-## Core skills shown
+This is an AI-assisted and manually reviewed portfolio. I use these projects to show data quality thinking, validation discipline, evidence-based reporting, and the ability to work through structured data problems carefully.
 
-- Data quality checks & Row-level issue flags
-- Duplicate & Missing value detection
-- Schema validation & Invalid format checks
-- SQL querying: filters, aggregations, JOINs, NULL handling, mismatches
-- High-performance data processing (CSV / Parquet / XML)
-- Clear actual vs expected notes & Evidence-based reports
+## Core practices shown
+
+- Data quality checks & row-level issue flags
+- Duplicate & missing value detection
+- Schema validation & invalid format checks
+- SQL querying basics: filters, aggregations, JOINs, NULL handling, mismatches
+- Structured data review across CSV, Parquet, and XML-style datasets
+- Clear actual vs expected notes & evidence-based reports
 - Reproducible command-line workflows
 - QA mindset applied strictly to data integrity
 
@@ -26,23 +28,23 @@ My entry-level strength is rigorous validation: checking whether data is complet
 ### 1. NYC Yellow Taxi Cleanup
 **Repository:** `nyc-yellow-taxi-cleanup`
 
-High-performance data quality pipeline processing **198 million records (60 months of Parquet files)** using Python (Polars). The focus is handling massive-scale data efficiently without memory crashes, keeping suspicious records flagged, comparing years, and avoiding blind deletions.
+Portfolio data quality project exploring **198 million records (60 months of Parquet files)**. The focus is understanding large structured datasets, handling schema drift, keeping suspicious records flagged instead of blindly deleting them, comparing years, and investigating row-level anomalies.
 
 **Why it matters:**
-- Demonstrates ability to process massive datasets (198M+ rows) using high-performance tools like Polars.
-- Handles schema drift across multiple years of data.
+- Demonstrates a data quality workflow for very large Parquet datasets.
+- Shows schema drift across multiple years of data.
 - Separates real anomalies from records that may still be valid.
 - Explains why a data issue may come from source-system changes, not just dirty data.
 
 ### 2. Data Quality Audit CLI
 **Repository:** `data-quality-audit-cli`
 
-Reusable rule-based validation project for messy CSV and Parquet datasets. Generates reviewable outputs such as summary reports, JSON metrics, HTML output, and exactly flagged rows.
+Portfolio validation project for messy CSV and Parquet datasets. It uses rule-based checks and generates reviewable outputs such as summary reports, JSON metrics, HTML output, and exactly flagged rows.
 
 **Why it matters:**
-- Shows practical, programmatic data validation logic.
+- Shows practical data validation logic.
 - Focuses on exact affected rows, not vague summaries.
-- Can be utilized as a strict data quality gate before import, CRM usage, or business review.
+- Models a strict data quality gate before import, CRM usage, or business review.
 
 ### 3. TED 2025 Data Quality Audit
 **Repository:** `ted-2025-data-quality-audit`
@@ -61,11 +63,19 @@ Practical cleanup of messy customer-style data. Useful for showing fundamental d
 
 **Why it matters:**
 - Connects directly to common business tasks: CSV/Excel cleanup, missing fields, and formatting standardization.
-- Highly communicable and easy to discuss during an interview.
+- Easy to discuss during an interview because the business case is simple and practical.
 
 ## Secondary Focus (QA / API)
 
 QA/API repositories are maintained as a secondary skill set. They are valuable because data workflows frequently require validating system imports, exports, API endpoints, and expected responses. However, my primary target is structural data validation.
+
+## Not claiming
+
+- Senior Python development experience
+- Production data engineering ownership
+- Machine learning or data science expertise
+- Cloud infrastructure ownership
+- DBA-level database administration
 
 ## Target roles
 
